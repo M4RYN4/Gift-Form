@@ -132,6 +132,7 @@ a:link:focus {
 
 #error {
     font-size: 20px;
+    border: 2px solid red; 
     color: #EE0000;
     background-color: white;
     display: none;
