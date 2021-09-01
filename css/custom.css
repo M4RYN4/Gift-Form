@@ -1,0 +1,274 @@
+/*Created by Maryna @M4RYN4 */
+
+.title {
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+body {
+    margin: 0;
+    color: #080000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: .075em;
+    text-decoration: none;
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 100;
+    font-size: 2rem;
+    color: rgba(0, 0, 0);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+#firstNameAnswer,
+#lastNameAnswer,
+#emailAnswer,
+#phoneAnswer,
+#addressAnswer,
+#cityAnswer,
+#provinceAnswer,
+#postalCodeAnswer,
+#canadaAnswer,
+#includeAnswer,
+#occasionAnswer,
+#sendAdditionalItemsAnswer,
+#deliveryDateAnswer,
+#notesAnswer {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: normal;
+    word-wrap: break-word; /*to show the 2nd page (after submit) text inside the container*/
+    width: 400px; /*to show the 2nd page (after submit) text inside the container*/
+}
+
+#validationError {
+    color: #EE0000;
+    background-color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#errorFocus {
+    outline: none;
+}
+
+#correctMistakes {
+    font-size: 1.3em;
+    font: bold;
+    color: #EE0000;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:link {
+    color: #0000EE;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551A8B;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+a:active {
+    color: #FF0000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*for links to receive keyboard focus*/
+a:link:focus {
+    outline: none;
+    border: 2px solid red;
+    text-decoration: none;
+    padding: 0.2em;
+}
+
+.container {
+    /*Bootstrap container*/
+    max-width: 960px;
+}
+
+.questionBold {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-style: bolder;
+}
+
+#container {
+    margin: auto;
+    width: 200%;
+    padding: 20px;
+}
+
+#error {
+    font-size: 20px;
+    color: #EE0000;
+    background-color: white;
+    display: none;
+    padding: 25px 50px 25px;
+}
+
+#error:focus {
+    color: #EE0000;
+    background-color: white;
+    display: block;
+}
+
+#error:hover {
+    color: #EE0000;
+    background-color: white;
+    display: block;
+}
+
+#submited {
+    margin: 0;
+    color: #0D6EFD;
+    background-color: white;
+    font-size: 3rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1em;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    padding: 25px 50px 25px;
+}
+
+#submited:focus {
+    border: 1px solid #0D6EFD;
+    outline: 2px solid #0D6EFD;
+}
+
+.infoSubmitedCSS {
+    text-align: center;
+    font-weight: bold;
+}
+
+#confirmed {
+    margin: 0;
+    color: #008800;
+    background-color: white;
+    font-size: 3em;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1em;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    padding: 25px 50px 25px;
+}
+
+#confirmed:focus {
+    border: 1px solid #008800;
+    outline: 2px solid #008800;
+}
+
+fieldset {
+    border: 0;
+}
+
+#validRadioSendAddItemsYesNo,
+#invalidRadioSendAddItemsYesNo {
+    margin-left: -1.5em;
+}
+
+.valid-feedback,
+.invalid-feedback {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+ul {
+    color: red;
+}
+
+/*for iframe */
+.hide {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+div.hidden {
+    display: none;
+}
+
+.btn-lg {
+    width: 200px;
+}
+
+.requiredRedAterisk {
+    color: red;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.ui-datepicker-trigger {
+    width: 45px;
+    padding-left: 0.5em;
+    cursor: pointer;
+}
+
+.div-table {
+    display: table;
+    width: 100%;
+    border-spacing: 5px;
+}
+
+.div-table-row {
+    display: table-row;
+    width: auto;
+    background-color: white;
+}
+
+.div-table-col {
+    float: left;
+    /* fix for  buggy browsers */
+    display: table-column;
+    width: 50%;
+    min-width: 400px;
+
+}
